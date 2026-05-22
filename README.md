@@ -1,2 +1,2 @@
-# First-project
+# Amazon project
 My first Html css project
