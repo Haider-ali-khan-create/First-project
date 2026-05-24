@@ -23,8 +23,8 @@
 .logo{
    width: 130px;
    height: 50px;
-   background-image: url("pictures/amazon.png");
-   background-size: cover;
+   max-width: 100%;
+   object-fit: cover;
 }
 .in{
    color: white;
@@ -203,7 +203,9 @@ select:hover{
    height: 90px;
    width: 135px;
    position: relative;
-   bottom: 60px;  
+   bottom: 60px;
+   max-width: 100%;
+   object-fit: cover;  
 }
 .product1 figcaption, .product3 figcaption, .product4 figcaption{
    position: relative;
@@ -219,22 +221,7 @@ h2{
    padding-right: 20px;
    font-size: 21px;
 }
-.c1{
-   background-image: url("pictures/ac.jpg");
-   background-size: cover;
-}
-.c2{
-   background-image: url("pictures/fridge.jpg");
-   background-size: cover;
-}
-.c3{
-   background-image: url("pictures/microwave.jpg");
-   background-size: cover;
-}
-.c4{
-   background-image: url("pictures/washingmachine.jpg");
-   background-size: cover;
-}
+
 .product1 span, .product2 span, .product3 span, .product4 span{
    position: absolute;
    top: 360px;
@@ -251,23 +238,8 @@ h2{
    width: 130px;
    position: relative;
    bottom: 30px;
-   background-position: -25px;
-}
-.d1{
-   background-image: url(pictures/cushion.jpg);
-   background-size: cover;
-}
-.d2{
-   background-image: url(pictures/fugurines.jpg);
-   background-size: cover;
-}
-.d3{
-   background-image: url(pictures/homestorage.jp.jpg);
-   background-size: cover;
-}
-.d4{
-   background-image: url(pictures/light.jpg);
-   background-size: cover;
+   max-width: 100%;
+   object-fit: cover;
 }
 .product2 figcaption{
    position: relative;
@@ -281,45 +253,22 @@ h2{
    height: 90px;
    width: 135px;
    position: relative;
-   bottom: 60px;  
+   bottom: 60px;
+   max-width: 100%;
+   object-fit: cover;  
 }
-.e1{
-   background-image: url(pictures/cleaning.jpg);
-   background-size: cover;
-}
-.e2{
-   background-image: url(pictures/bathroom.jpg);
-   background-size: cover;
-}
-.e3{
-   background-image: url(pictures/tools.jpg);
-   background-size: cover;
-}
-.e4{
-   background-image: url(pictures/wallpapers.jpg);
-   background-size: cover;
+.product3 figcaption{
+   position: relative;
+   bottom: 60px;
+   font-size: 12px;
 }
 .f1,.f2,.f3,.f4{
    height: 90px;
    width: 135px;
    position: relative;
    bottom: 60px;  
-}
-.f1{
-   background-image: url(pictures/laptop.jpg);
-   background-size: cover;
-}
-.f2{
-   background-image: url(pictures/kitchen.jpg);
-   background-size: cover;
-}
-.f3{
-   background-image: url(pictures/chair.jpg);
-   background-size: cover;
-}
-.f4{
-   background-image: url(pictures/register.jpg);
-   background-size: cover;
+   max-width: 100%;
+   object-fit: cover;
 }
 .product5{
    width: 1370px;
@@ -354,30 +303,8 @@ h2{
 .h1,.h2,.h3,.h4,.h5,.h6,.k1,.k2,.k3,.k4,.k5,.k6{
    height: 200px;
    width: 200px;
-}
-.h1{
-   background-image: url(pictures/h1.jpg);
-   background-size: cover;
-}
-.h2{
-   background-image: url(pictures/h2.jpg);
-   background-size: cover;
-}
-.h3{
-   background-image: url(pictures/h3.jpg);
-   background-size: cover;
-}
-.h4{
-   background-image: url(pictures/h4.jpg);
-   background-size: cover;
-}
-.h5{
-   background-image: url(pictures/h5.jpg);
-   background-size: cover;
-}
-.h6{
-   background-image: url(pictures/h6.jpg);
-   background-size: cover;
+   max-width: 100%;
+   object-fit: cover;
 }
 .product6{
    width: 1370px;
@@ -386,33 +313,6 @@ h2{
    display: flex;
    justify-self: center;
    position: relative;
-}
-.k1{
-   background-image: url(pictures/k1.jpg);
-   background-size: cover;
-}
-.k2{
-   background-image: url(pictures/k2.jpg);
-   background-size: cover;
-}
-.k3{
-   background-image: url(pictures/k3.jpg);
-   background-size: cover;
-   background-size: 79%;
-   background-repeat: no-repeat;
-   background-position: 40px;
-}
-.k4{
-   background-image: url(pictures/k4.jpg);
-   background-size: cover;
-}
-.k5{
-   background-image: url(pictures/k5.jpg);
-   background-size: cover;
-}
-.k6{
-   background-image: url(pictures/k6.jpg);
-   background-size: cover;
 }
 .backtotop{
    height: 50px;
